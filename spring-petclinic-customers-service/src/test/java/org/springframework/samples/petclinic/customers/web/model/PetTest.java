@@ -12,6 +12,7 @@ public class PetTest {
         Pet pet = new Pet();
         //Act
         pet.setName("Fluffy");
+        //
         //Assert
         assertEquals("Fluffy", pet.getName());
     }
